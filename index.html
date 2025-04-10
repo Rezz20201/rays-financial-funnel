@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ray's Financial Group - Life Insurance Quote</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      max-width: 600px;
+      margin: auto;
+      background-color: #f8f8f8;
+    }
+    h1, h2 {
+      text-align: center;
+    }
+    form {
+      background-color: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    label {
+      display: block;
+      margin: 10px 0 5px;
+    }
+    input, select, textarea {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    button {
+      margin-top: 20px;
+      width: 100%;
+      padding: 10px;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      font-size: 16px;
+    }
+    img {
+      max-width: 100%;
+      border-radius: 8px;
+      margin: 10px 0;
+    }
+    .video-wrapper {
+      position: relative;
+      padding-bottom: 56.25%;
+      height: 0;
+      overflow: hidden;
+    }
+    .video-wrapper iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+  </style>
+</head>
+<body>
+  <h1>Ray's Financial Group</h1>
+  <h2>Helping Families Protect What Matters Most</h2>
+
+  <p><strong>"At Ray's Financial Group, I genuinely care about protecting your family. My mission is to help you get the best coverage available at the most affordable price — no pressure, just real solutions that work for you. Let’s build a legacy of security together."</strong><br>– Curtis Ray, Licensed Life Insurance Broker</p>
+
+  <div class="video-wrapper">
+    <iframe src="https://drive.google.com/file/d/1IlMTO_MpajteXNOIliiBc0jSGVIG0ep-/preview" allow="autoplay"></iframe>
+  </div>
+
+  <form action="https://formspree.io/f/xaneabkb" method="POST">
+    <label for="name">Full Name:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="email">Email Address:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="phone">Phone Number:</label>
+    <input type="tel" id="phone" name="phone" required>
+
+    <label for="age">Age:</label>
+    <input type="number" id="age" name="age" required>
+
+    <label for="interest">Type of Insurance Interested In:</label>
+    <select id="interest" name="interest">
+      <option value="Term Life">Term Life</option>
+      <option value="Whole Life">Whole Life</option>
+      <option value="IUL">Indexed Universal Life (IUL)</option>
+    </select>
+
+    <label>Why are you considering life insurance right now?</label>
+    <textarea name="reasons" placeholder="Protect my family, mortgage protection, etc..."></textarea>
+
+    <label>When do you plan to get started?</label>
+    <select name="start_time">
+      <option>ASAP – I’m ready now</option>
+      <option>Within 30 days</option>
+      <option>Just researching</option>
+    </select>
+
+    <label>How much coverage are you considering?</label>
+    <select name="coverage">
+      <option>$50,000–$100,000</option>
+      <option>$100,000–$250,000</option>
+      <option>$250,000+</option>
+      <option>Not sure yet</option>
+    </select>
+
+    <label>Do you currently have any life insurance?</label>
+    <select name="current_insurance">
+      <option>Yes</option>
+      <option>No</option>
+    </select>
+
+    <label>Preferred way to connect:</label>
+    <select name="preferred_contact">
+      <option>Phone Call</option>
+      <option>Text</option>
+      <option>Email</option>
+    </select>
+
+    <button type="submit">Get My Free Quote</button>
+  </form>
+</body>
+</html>
