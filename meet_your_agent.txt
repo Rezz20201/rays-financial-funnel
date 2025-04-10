@@ -1,0 +1,139 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Meet Curtis Ray, your trusted life insurance broker with over 15 years of experience in term, whole life, IUL, and mortgage protection solutions.">
+  <title>Meet Your Agent - Ray's Financial Group</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="info-page-header bg-light py-4">
+    <div class="container">
+      <header class="text-center">
+        <div class="logo-container mb-3">
+          <a href="/">
+            <img src="/static/images/logo.svg" alt="Ray's Financial Group Logo" class="logo" style="max-height: 80px;">
+          </a>
+        </div>
+        <h1>Meet Your Agent</h1>
+        <h2>Curtis Ray - Licensed Life Insurance Broker</h2>
+      </header>
+    </div>
+  </div>
+
+  <div class="container py-5">
+    <div class="row">
+      <div class="col-lg-8">
+        <div class="agent-profile mb-5">
+          <div class="text-center mb-4">
+            <img src="/static/images/ray_mascot.svg" alt="Photo of Curtis Ray, Life Insurance Broker" class="rounded-circle mb-3" style="width: 200px; height: 200px; object-fit: cover;">
+            <h3>Curtis Ray</h3>
+            <p class="lead">Licensed Life Insurance Broker</p>
+          </div>
+
+          <div class="mb-4">
+            <h4>Professional Background</h4>
+            <ul>
+              <li><strong>Experience:</strong> Over 15 years in life insurance</li>
+              <li><strong>Specialization:</strong> Term, Whole Life, IUL, and Mortgage Protection</li>
+              <li><strong>Licenses:</strong> Licensed in multiple states</li>
+              <li><strong>Education:</strong> Certified Financial Planning Professional</li>
+            </ul>
+          </div>
+
+          <div class="mb-4">
+            <h4>My Approach</h4>
+            <p>At Ray's Financial Group, I believe in providing personalized insurance solutions that truly meet your family's needs. My mission is to help you secure your family's financial future with the right coverage at the most competitive rates.</p>
+          </div>
+
+          <div class="row">
+            <div class="col-md-6">
+              <h4>Services Offered</h4>
+              <ul>
+                <li>Free Insurance Consultations</li>
+                <li>Customized Policy Recommendations</li>
+                <li>Risk Assessment Analysis</li>
+                <li>Policy Reviews and Updates</li>
+                <li>Claims Assistance</li>
+              </ul>
+            </div>
+            <div class="col-md-6">
+              <h4>Areas of Expertise</h4>
+              <ul>
+                <li>Family Protection Planning</li>
+                <li>Estate Planning</li>
+                <li>Business Succession Planning</li>
+                <li>Retirement Planning</li>
+                <li>Mortgage Protection</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="family-photo-section text-center my-5">
+            <h4>Meet My Family</h4>
+            <img src="/static/images/family_photo.jpg" alt="Curtis Ray and Family" class="img-fluid rounded shadow-sm" style="max-width: 600px;">
+            <p class="mt-3">Curtis Ray with wife Faye Ray, daughter Honesty Ray, Pastor Candice House, and Pastor Anthony House.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4">
+        <div class="quote-cta mb-4 p-4 bg-light rounded shadow-sm">
+          <h3>Schedule a Consultation</h3>
+          <p>Let's discuss your insurance needs and find the perfect coverage for your family.</p>
+          <a href="/schedule" class="btn btn-primary btn-lg w-100">Book Appointment</a>
+        </div>
+
+        <div class="card mb-4">
+          <div class="card-header">
+            <h5 class="mb-0">Insurance Products</h5>
+          </div>
+          <div class="card-body">
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item"><a href="/term" class="text-decoration-none">Term Life Insurance</a></li>
+              <li class="list-group-item"><a href="/whole" class="text-decoration-none">Whole Life Insurance</a></li>
+              <li class="list-group-item"><a href="/iul" class="text-decoration-none">Indexed Universal Life (IUL)</a></li>
+              <li class="list-group-item"><a href="/mortgage" class="text-decoration-none">Mortgage Protection</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header">
+            <h5 class="mb-0">Contact Information</h5>
+          </div>
+          <div class="card-body">
+            <ul class="list-unstyled mb-0">
+              <li class="mb-2"><i class="bi bi-telephone-fill me-2"></i><a href="tel:9122723875">912-272-3875</a></li>
+              <li class="mb-2"><i class="bi bi-chat-dots-fill me-2"></i><a href="sms:9122723875">Text Me</a></li>
+              <li><i class="bi bi-calendar-check me-2"></i><a href="/schedule">Book Appointment</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="mt-5 border-top pt-4">
+      <div class="row">
+        <div class="col-md-6">
+          <p>&copy; 2023 Ray's Financial Group. All rights reserved.</p>
+          <p>Licensed Life Insurance Broker</p>
+        </div>
+        <div class="col-md-6 text-md-end">
+          <a href="/" class="text-decoration-none me-3">Home</a>
+          <a href="/term" class="text-decoration-none me-3">Term Life</a>
+          <a href="/whole" class="text-decoration-none me-3">Whole Life</a>
+          <a href="/iul" class="text-decoration-none me-3">IUL</a>
+          <a href="/mortgage" class="text-decoration-none">Mortgage Protection</a>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
